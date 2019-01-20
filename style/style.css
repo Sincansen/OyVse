@@ -345,7 +345,19 @@ left: 2%;
   text-align: center;
 }
 
-.container{
+article{
   margin: 0 auto;
+  justify-content: center;
+}
 
+.contacts__subheader{
+  margin-left: 2%;
+}
+
+.contacts__text{
+  margin-left: 2%;
+}
+
+.footer__author-link {
+  margin-left: 2%;
 }
