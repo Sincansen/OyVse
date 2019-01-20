@@ -176,11 +176,12 @@ a {
  text-align: center;
 }
 
+/* Тут оригинальное
 .block__list {
   display: flex;
   flex-wrap: wrap;
 }
-
+*/
 .block__item {
   display: flex;
   flex-wrap: wrap;
@@ -225,6 +226,7 @@ left: 2%;
   font-size: 48px;
   text-align: center;
   padding-top: 15%;
+  color: black;
 }
 
 /*Самопознание*/
@@ -306,4 +308,23 @@ left: 2%;
 
   display: inline-block;
   background-repeat: no-repeat;
+}
+
+@media (orientation:landscape) {
+.block__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+
+@media (orientation:portrait) {
+.block__list {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
 }
