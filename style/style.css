@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:500|Roboto:400,400i');
+
+* {
+	box-sizing: border-box;
+  /*border: 1px solid black;*/
+}
+
+body {
+	background-color: #ffff;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+section {
+	color: #ffff;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+article {
+  min-width: auto;
+  min-height: auto;
+}
+
+/*Заголовок 1 уровня*/
+h1 {
+	font-family: 'Fira Sans';
+	font-weight: 500;
+	font-size: 48px;
+}
+
+/*Заголовок 2 уровня*/
+h2 {
+	font-family: 'Fira Sans';
+	font-weight: 500;
+	font-size: 36px;
+	letter-spacing: 0.05em; /*межбуквенный интервал*/
+	line-height: 40px; /*Межстрочное расстояние*/
+}
+
+/*Заголовок 3 уровня*/
+h3 {
+	font-family: 'Fira Sans';
+	font-weight: 500;
+	font-size: 24px;
+	letter-spacing: 0.05em;
+	line-height: 40px;
+}
+
+h3[class="block__item-header"]{
+  text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	min-width: 1024px;
+  max-width: 80%;
+	margin: 0 auto;
+}
+
+.container {
+	min-width: 940px;
+	margin: 0px auto;
+}
+
+.main {
+	display: flex;
+    padding-top: 7px;
+}
+
+/*--ШАПКА--*/
+.header {
+	padding-top: 10px;
+}
+
+.logo {
+	width: 101px;
+	text-align: center;
+}
+
+.logo__img {
+	width: 100%;
+}
+
+.main-nav {
+	display: flex;
+    justify-content: flex-end;
+	flex-grow: 1;
+}
+
+.main-nav__list {
+    margin: 0px;
+    padding-top: 6px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 30px;
+    letter-spacing: 0.017em;
+}
+
+.main-nav__item {
+	padding: 0px 10px;
+}
+
+.main-nav__link {
+	color: #202020;
+}
+
+.main-nav__link:hover {
+	color: #510fad;
+}
+
+.header__request {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 150px;
+	color: #510fad;
+}
+
+/*--ПРОМО--*/
+.promo {
+	/*flex-direction: column; /*главная ось направлена сверху вниз*/
+    min-height: 560px;
+    padding-top: 119px;
+}
+.promo__text {
+	width: 530px;
+	margin-left: 317px;
+}
+
+.promo__header {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.promo__offer {
+    margin-top: 43px;
+    padding-left: 10px;
+    border-left: 2px solid #510fad;
+    color: #727173;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.058em;
+}
+
+.timer {
+    text-align: center;
+}
+
+.timer__text {
+	color: black;
+}
+
+.motivation {
+	background-color: #570bc1;
+}
+
+.block__header {
+ text-align: center;
+}
+
+.block__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block__item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  max-width: 50%;
+  min-height: 300px;
+}
+
+.block__item-header {
+  margin: 0px;
+  padding-bottom: 9px;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.block__image {
+position: relative;
+top: 5%;
+left: 2%;
+}
+
+.block__info {
+  flex-basis: 50%;
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.block__text {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.button__info {
+  width: 396px;
+  height: 136px;
+  background-color: #ffff00;
+  margin-left: 15%;
+}
+
+.button__text{
+  font-size: 48px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+/*Самопознание*/
+
+.self-knowledge {
+  background-color: #0099cc;
+}
+
+/*Коммуникация*/
+
+.communication {
+  background-color: #00cc66;
+}
+
+/*Самоорганизация*/
+
+.self-organization {
+  background-color: #ff9933;
+}
+
+/*КОНТАКТЫ*/
+
+.contacts{
+
+}
+
+.contacts__header{
+  text-align: left;
+  color: #333333;
+}
+
+.contacts__information{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts__subheader{
+  color: #666666;
+  font-size: 14px;
+}
+
+.contacts__text{
+  color: #333333;
+  font-size: 14px;
+}
+
+.contacts__phone{
+  width: 50%;
+}
+
+.contacts__email{
+  width: 50%;
+}
+
+.footer{
+  border-top: 1px solid black;
+  padding-bottom: 1%;
+}
+
+.footer__block{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__author{
+  width: 50%;
+}
+
+.footer__link-block{
+  padding-left: auto;
+  padding-right: 0;
+  width: 50%;
+  display: flex;
+}
+
+.footer__link{
+  margin-left: 10px;
+  margin-top: 15px;
+
+  display: inline-block;
+  background-repeat: no-repeat;
+}
