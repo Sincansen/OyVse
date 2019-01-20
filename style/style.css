@@ -330,7 +330,12 @@ left: 2%;
 }
 .wrapper {
   min-width: 100%;
-  margin: 0 auto;
+  margin: 0px auto;
+}
+
+.container {
+  min-width: 90%;
+  margin: 0px auto;
 }
 
 }
