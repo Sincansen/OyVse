@@ -327,8 +327,14 @@ left: 2%;
   -o-flex-direction: column;
   flex-direction: column;
 }
+
 .wrapper {
   min-width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  min-width: 80%;
   margin: 0 auto;
 }
 
