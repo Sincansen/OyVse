@@ -328,14 +328,25 @@ left: 2%;
   -o-flex-direction: column;
   flex-direction: column;
 }
+
 .wrapper {
   width: 100%;
   margin: 0px auto;
 }
 
+/*
 .container {
   width: 90%;
   margin: 0px auto;
+}
+*/
+
+.contacts__header{
+  text-align: center;
+}
+
+article {
+  text-align: center;
 }
 
 }
